@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root{
+    --primary-color1:#3d64e6;
+    --primary-color2:#ffffff;
+    --sec-color:#222a43;
+}
+
+.dark-theme{
+
+    --primary-color1:#000000;
+    --primary-color2:#b89ddb;
+    --sec-color:#000000;
+}
+#icon{
+    border: none;
+    border-radius: 2em;
+    background-color: var(--primary-color1);
+    color: var(--primary-color2);
+    position: relative;
+    float: right;
+    width: 5em;
+}
+body {
+  background-color: var(--primary-color1);
+}
+.container {
+  background-color: var(--primary-color2);
+  width: 80vw;
+  max-width: 37.5em;
+  padding: 3em 2.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.62em;
+  box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+}
+.search-wrapper {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.25em;
+}
+.search-wrapper button {
+  font-size: 1em;
+  background-color: var(--primary-color1);
+  color: var(--primary-color2);
+  padding: 0.8em 0;
+  border: none;
+  border-radius: 1.5em;
+}
+.search-wrapper input {
+  font-size: 1em;
+  padding: 0 0.62em;
+  border: none;
+  border-bottom: 2px solid var(--primary-color1);
+  outline: none;
+  color: var(--sec-color);
+  background-color: var(--primary-color2);
+}
+.data-wrapper span{
+    color: var(--sec-color);
+}
+#result {
+  margin-top: 1.25em;
+}
+.container .flag-img {
+  display: block;
+  width: 45%;
+  min-width: 7.5em;
+  margin: 1.8em auto 1.2em auto;
+}
+.container h2 {
+  font-weight: 600;
+  color: var(--sec-color);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8em;
+}
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
+}
+.container h4 {
+  display: inline;
+  font-weight: 500;
+  color: var(--sec-color);
+}
+.container span {
+  color: #5d6274;
+}
+.container h3 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #ff465a;
+}
